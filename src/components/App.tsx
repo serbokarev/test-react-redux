@@ -1,6 +1,6 @@
-import "../../resources/css/layout.scss"
-
 import React from "react";
+import { TradePage } from "./Trade";
+import "../../resources/css/layout.scss"
 
 interface IProps {
 
@@ -8,7 +8,7 @@ interface IProps {
 
 export const App: React.FunctionComponent<IProps> = ({}: IProps) => {
 
-    return <div className={""}>
-        Application
+    return <div>
+        <TradePage />
     </div>;
 };
